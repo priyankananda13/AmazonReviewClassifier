@@ -17,7 +17,7 @@ i. The original data in json format is converted to dataframe using Pandas.<br>
 ii. From 1-5 range reviews, 1-2 is taken as Negative, 3 as Neutral and 4-5 as Positive.<br>
 iii. Balancing the data and the use of text pre-processing techniques.
     
-### 2. Model training: <br>
+### 2. Model Training: <br>
 i. Machine Learning model LinearSVC (Linear Support Vector Classifier) is used.<br>
 ii. The model is saved with joblib library. We can directly load this model and get results easily.<br>
 iii. Generation of Classification report to understand the model better.<br>
